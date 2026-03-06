@@ -1,0 +1,71 @@
+name: come_for_ride
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.8
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  google_fonts: ^8.0.1
+  flutter_map: ^8.2.2
+  latlong2: ^0.9.1
+  http: ^1.6.0
+  shared_preferences: ^2.5.4
+  flutter_launcher_icons: ^0.14.4
+  geolocator: ^14.0.2
+  socket_io_client: ^3.1.4
+  url_launcher: ^6.3.2
+  flutter_dotenv: ^6.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+  # Optional: for Android 8.0+ adaptive icons
+  adaptive_icon_background: "#FFFFFF" 
+  adaptive_icon_foreground: "assets/logo.png"
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/logo.png
+    - assets/.env
+  #   - images/a_dot_ham.jpeg
+
+  
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
